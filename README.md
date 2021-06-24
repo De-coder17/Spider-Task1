@@ -13,9 +13,9 @@ This contains the Basic and Hacker mode of Task 1 of Spider.
  ### The Intro branch contains the Readme file with all the necessary info.
  
  
- ### The main branch contains the Basic Mode. --> For demo visit here : https://de-coder17.github.io/Spider-Task1/
+ ### The main branch contains the Basic Mode. 
  
- ### The Hacker mode branch contains the Hacker Mode --> For demo vidit here :  https://de-coder17.github.io/Spider-Task1/
+ ### The Hacker mode branch contains the Hacker Mode. 
 
 
 
