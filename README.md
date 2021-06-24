@@ -8,7 +8,13 @@ This contains the Basic and Hacker mode of Task 1 of Spider.
 
 ### The hacker mode is same as the basic mode but it will alow you to see the pending/completed todos and also a check mark button is inculed which will allow a user to check out a task which he/she has completed. Also there are included sounds.
 
-
+## How to visit
+ 
+ ### The Intro branch contains the Readme file with all the necessary info.
+ 
+ ### The main branch contains the Basic Mode.
+ 
+ ### The Hacker mode branch contains the Hacker Mode
 
 
 
