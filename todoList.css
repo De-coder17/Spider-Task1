@@ -1,0 +1,132 @@
+
+
+#heading1 {
+    font-family: "Poppins" , sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input , form button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background: steelblue;
+    color: antiquewhite;
+    border: none;
+    
+}
+form button{
+    background: #caf0f8;
+    color: steelblue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 50px;
+}
+form button:hover{
+    background: #03045e;
+    color:#caf0f8 ;
+    border: 2px solid black;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.todo-list{
+    min-width: 70%;
+    list-style: none;
+    
+}
+
+.todo{
+    margin: 0.5rem;
+    background: lightgray;
+    color: black;
+    font-size: 1.3rem;
+    font-family: "Poppins" , sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.trash-btn, .complete-btn {
+    background: #d31a1a;
+    color: bisque;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 40px;
+}
+
+.complete-btn{
+    background: rgb(8, 184, 67);
+}
+
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash , .fa-check {
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none ;
+}
+
+.select{
+    margin: 1rem;
+    position: relative;   
+}
+
+select{
+    color: black;
+    width: 10rem;
+    cursor: pointer;
+    background: #b7b7a4;
+    font-family: "Poppins" , sans-serif;
+    font-weight: bolder;
+   
+    padding: 1rem;
+}
+
+.select::after{
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.9rem;
+    pointer-events: none;
+    color: antiquewhite;
+    background: rgb(13, 45, 71) ;
+    transition: all 0.3s ease;
+    
+}
+
+.select:hover::after{
+    background: rgb(10, 119, 138);
+    
+}
